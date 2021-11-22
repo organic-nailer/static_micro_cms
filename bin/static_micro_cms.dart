@@ -8,8 +8,6 @@ import 'config.dart';
 import 'data_generator.dart';
 import 'type_generator.dart';
 
-const String baseUrl = "https://fastriver-dev.microcms.io/api/v1";
-
 void main(List<String> args) async {
   final dryRun = args.contains("--dry");
   // get api key
@@ -50,9 +48,9 @@ void main(List<String> args) async {
   print("data generated!");
 }
 
-Future<String> getMicroData(String endpoint, String apiKey) async {
-  var url = baseUrl + "/$endpoint";
-  var res =
-      await http.get(Uri.parse(url), headers: {"X-MICROCMS-API-KEY": apiKey});
+Future<String> getMicroData(GenerationConfig config, String endpoint) async {
+  var url = config.baseUrl + "/$endpoint";
+  var res = await http
+      .get(Uri.parse(url), headers: {"X-MICROCMS-API-KEY": config.apiKey});
   return res.body;
 }
