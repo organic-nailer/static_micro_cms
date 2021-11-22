@@ -1,0 +1,54 @@
+{
+    "apiFields": [{
+        "idValue": "iZFj7yiJiK",
+        "fieldId": "text_field_",
+        "name": "text__field",
+        "kind": "text",
+        "required": true
+    }, {
+        "fieldId": "text_area_",
+        "name": "text__area",
+        "kind": "textArea"
+    }, {
+        "fieldId": "rich_editor_",
+        "name": "rich__editor",
+        "kind": "richEditor"
+    }, {
+        "fieldId": "image_",
+        "name": "image__",
+        "kind": "media"
+    }, {
+        "fieldId": "date_",
+        "name": "date__",
+        "kind": "date"
+    }, {
+        "fieldId": "boolean_",
+        "name": "boolean__",
+        "kind": "boolean"
+    }, {
+        "fieldId": "number_",
+        "name": "number__",
+        "kind": "number"
+    }, {
+        "fieldId": "cuuustom1",
+        "name": "くうすとむ1",
+        "kind": "custom",
+        "customFieldCreatedAt": "2021-11-21T23:57:57.848Z"
+    }],
+    "customFields": [{
+        "createdAt": "2021-11-21T23:57:57.848Z",
+        "fieldId": "custom_field1",
+        "name": "カスタムフィールド1",
+        "fields": [{
+            "idValue": "aaJlrYDXI_",
+            "fieldId": "hoge",
+            "name": "ほげ",
+            "kind": "text"
+        }],
+        "position": [
+            ["aaJlrYDXI_"]
+        ],
+        "updatedAt": "2021-11-21T23:57:57.848Z",
+        "viewerGroup": "MK5"
+    }]
+}
