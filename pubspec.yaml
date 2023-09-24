@@ -4,20 +4,20 @@ version: 0.2.0
 homepage: https://github.com/organic-nailer/static_micro_cms
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
-  dotenv: ^3.0.0
+  dotenv: ^4.1.0
   flutter:
     sdk: flutter
-  http: ^0.13.4
+  http: ^1.1.0
   yaml: ^3.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.3
 
 
 flutter:

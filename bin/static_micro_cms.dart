@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:yaml/yaml.dart';
-import 'package:dotenv/dotenv.dart' as dotenv;
+import 'package:dotenv/dotenv.dart';
 import 'package:http/http.dart' as http;
 
 import 'config.dart';
@@ -11,8 +11,9 @@ import 'type_generator.dart';
 void main(List<String> args) async {
   final dryRun = args.contains("--dry");
   // get api key
+  final dotenv = DotEnv();
   dotenv.load();
-  final apiKey = dotenv.env["API_KEY"];
+  final apiKey = dotenv["API_KEY"];
   if (apiKey == null) {
     throw Exception("API_KEY doesn't exist in .env");
   }
