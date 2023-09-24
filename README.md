@@ -1,5 +1,7 @@
 # static_micro_cms
 
+[![pub package](https://img.shields.io/pub/v/static_micro_cms.svg)](https://pub.dev/packages/static_micro_cms)
+
 It is a package that helps you create a static webpage with Jamstack using microCMS.
 
 これは[microCMS](https://microcms.io/)を使ってJamstack構成でFlutter製のWebページを制作するのを支援するパッケージです。
