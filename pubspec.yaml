@@ -1,6 +1,6 @@
 name: static_micro_cms
 description: A package that helps you create a webpage with Jamstack using microCMS
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/organic-nailer/static_micro_cms
 
 environment:
